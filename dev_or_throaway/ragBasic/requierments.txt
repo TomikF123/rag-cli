@@ -1,0 +1,10 @@
+llama-index
+llama-index-embeddings-huggingface
+pinecone-client>=3.0.0
+llama-index-vector-stores-pinecone
+llama-index-embeddings-cohere
+pandas
+pymupdf
+argparse
+sentence-transformers
+

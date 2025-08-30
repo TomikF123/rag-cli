@@ -1,0 +1,5 @@
+venv/
+.env/
+data/*
+!data/StudijniRad.pdf
+__pycache__/
