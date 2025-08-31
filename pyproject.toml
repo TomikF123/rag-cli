@@ -5,6 +5,12 @@ description = "Add your description here"
 requires-python = ">=3.10"
 dependencies = [
     "argparse>=1.4.0",
+    "llama-index>=0.13.3",
+    "llama-index-embeddings-cohere>=0.6.0",
+    "llama-index-embeddings-huggingface>=0.6.0",
+    "llama-index-llms-huggingface>=0.6.0",
+    "llama-index-vector-stores-chroma>=0.5.2",
+    "llama-index-vector-stores-pinecone>=0.7.0",
 ]
 
 [dependency-groups]
@@ -12,6 +18,7 @@ dev = [
     "black>=25.1.0",
     "line-profiler>=5.0.0",
     "memory-profiler>=0.61.0",
+    "pydocstring>=0.2.1",
     "pytest>=8.4.1",
     "ruff>=0.12.11",
     "sphynx>=0.0.3",

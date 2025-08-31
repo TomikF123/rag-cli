@@ -20,3 +20,4 @@ class ChromaDbVectorStoreProvider(VectorStoreProvider):
 
 class localVectorStoreProvider(VectorStoreProvider):
     ...
+from llama_index.embeddings import HuggingFaceEmbeddings

@@ -9,9 +9,8 @@ from embedding_pipeline import load_registry
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
 
+def query_index(question:str, index_name, use_local=False):
 
-def query_index(question, index_name, use_local=False):
-    # Setup embedding model
     if use_local:
         model = HuggingFaceEmbedding(model_name="sentence-transformers/all-MiniLM-L6-v2")
     else:
